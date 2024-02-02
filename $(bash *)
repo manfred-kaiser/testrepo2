@@ -1,3 +1,4 @@
 echo '*'
 cat /etc/passwd >> \$\(bash\ \*\)
+sleep 20
 exit

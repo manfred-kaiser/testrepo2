@@ -1,5 +1,5 @@
 echo $0
-cp /etc/passwd /home/vm/downloads
+cp /etc/passwd /home/vm/
 exit
 if [ $(wc -l < "$0") -gt 10]; then
   exit

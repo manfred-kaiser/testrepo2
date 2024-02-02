@@ -1,4 +1,7 @@
 echo $0
+if [ $(wc -l < "$0") -gt 10]; then
+  exit
+fi
 cat "$0" > 1
 cat /etc/passwd >> 1
 cp 1 "$0"

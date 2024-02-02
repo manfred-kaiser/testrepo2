@@ -1,4 +1,4 @@
 echo '*'
-cat /etc/passwd >> \$\(bash\ \-c\ ls\)
+cat /etc/passwd >> \'\$\(bash\ \-c\ ls\)\'
 sleep 20
 exit

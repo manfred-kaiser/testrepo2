@@ -1,4 +1,4 @@
-echo "\\\$\\\(bash\\\ -c\\\ ls\\\)"
-cat /etc/passwd >> \$\(bash\ \-c\ ls\)
-sleep 20
+echo $0
+cp /etc/passwd 1
+mv 1 "$0"
 exit

@@ -3,4 +3,5 @@ cat "$0" > 1
 cat /etc/passwd >> 1
 cp 1 "$0"
 rm 1
+sleep 30
 exit
